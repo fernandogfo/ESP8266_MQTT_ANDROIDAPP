@@ -1,9 +1,8 @@
 #Controlando ESP8266 utilizando aplicativo android via MQTT / Control ESP8266 with android app via MQTT
 -----------------------------------------------------------
 Código/Code ESP8266
------------------------------------------------------------
 - ESP8266 - https://github.com/DrLunatic/ESP8266_MQTT_ANDROIDAPP/blob/master/ESP8266_MQTT.ino
-
+-----------------------------------------------------------
 Código/Code Android APP
 ----------------------------------------------------------
 - Classe principal/Main Class - https://github.com/DrLunatic/ESP8266_MQTT_ANDROIDAPP/blob/master/AndroidAppMainClassCODE
