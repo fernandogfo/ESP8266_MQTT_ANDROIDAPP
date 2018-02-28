@@ -24,7 +24,7 @@ const char* mqttPassword = "************";//======================password
 const int mqttPort = *****;//=========================================port
 const char* mqttTopicSub ="*******";//=================tópico do websocket
 
-#define LED 5
+#define LED 5 //Se refere a porta D1 do NodeMCU 8266
  
 WiFiClient espClient;
 PubSubClient client(espClient);
