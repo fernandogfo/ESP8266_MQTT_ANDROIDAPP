@@ -1,12 +1,15 @@
 #Controlando ESP8266 utilizando aplicativo android via MQTT / Control ESP8266 with android app via MQTT
 -----------------------------------------------------------
 Código/Code ESP8266
+-----------------------------------------------------------
+
 - ESP8266 - https://github.com/DrLunatic/ESP8266_MQTT_ANDROIDAPP/blob/master/ESP8266_MQTT.ino
 -----------------------------------------------------------
 Código/Code Android APP
 ----------------------------------------------------------
 - Classe principal/Main Class - https://github.com/DrLunatic/ESP8266_MQTT_ANDROIDAPP/blob/master/AndroidAppMainClassCODE
 - Aplicativo/APP - https://github.com/DrLunatic/ESP8266_MQTT_ANDROIDAPP/tree/master/MQTT_AndroidApp
+-----------------------------------------------------------
 
 Lembre-se/Remember
 ----------------------------------------------------------
@@ -19,6 +22,7 @@ Lembre-se/Remember
 
   <service android:name="org.eclipse.paho.android.service.MqttService" >
   </service>
+  -----------------------------------------------------------
 
 - Repositório Maven e Dependencias no build gradle do app / Repositories Maven and Dependencies on build gradle of the app:
     repositories {
