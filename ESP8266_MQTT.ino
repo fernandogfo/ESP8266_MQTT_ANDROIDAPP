@@ -133,4 +133,5 @@ void loop() {
   client.loop();
 }
 
-//Código original criado por Fábio Souza e reescrito por DrLunatic
+//Código original criado por Fábio Souza e reutilizado por DrLunatic
+//Fonte = https://www.embarcados.com.br/mqtt-dash/
