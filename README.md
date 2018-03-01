@@ -1,36 +1,42 @@
-#Controlando ESP8266 utilizando aplicativo android via MQTT / Control ESP8266 with android app via MQTT
------------------------------------------------------------
-Código/Code ESP8266
------------------------------------------------------------
+# Controlando ESP8266 utilizando aplicativo android via MQTT / Control ESP8266 with android app via MQTT
 
-- ESP8266 - https://github.com/DrLunatic/ESP8266_MQTT_ANDROIDAPP/blob/master/ESP8266_MQTT.ino
------------------------------------------------------------
-Código/Code Android APP
-----------------------------------------------------------
-- Classe principal/Main Class - https://github.com/DrLunatic/ESP8266_MQTT_ANDROIDAPP/blob/master/AndroidAppMainClassCODE
-- Aplicativo/APP - https://github.com/DrLunatic/ESP8266_MQTT_ANDROIDAPP/tree/master/MQTT_AndroidApp
------------------------------------------------------------
+### Código/Code ESP8266:
 
-Lembre-se/Remember
-----------------------------------------------------------
-- Permissões e o Serviço Paho MqttService no Android Manifest.xml / User permission and Paho MqttService on AndroidManifest.xml:
+* [ESP8266 CODE](https://github.com/DrLunatic/ESP8266_MQTT_ANDROIDAPP/blob/master/ESP8266_MQTT.ino)
 
-<uses-permission android:name="android.permission.WAKE_LOCK" />
-<uses-permission android:name="android.permission.INTERNET" />
-<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+### Código/Code Android APP:
+* [Código Classe principal/Main Class Code](https://github.com/DrLunatic/ESP8266_MQTT_ANDROIDAPP/blob/master/AndroidAppMainClassCODE)
+* [Aplicativo pronto/APP](https://github.com/DrLunatic/ESP8266_MQTT_ANDROIDAPP/tree/master/MQTT_AndroidApp)
 
-  <service android:name="org.eclipse.paho.android.service.MqttService" >
-  </service>
-  -----------------------------------------------------------
+### Lembre-se/Remember:
+
+- Permissões de acesso e o Serviço Paho MqttService no Android Manifest.xml / User permission and Paho MqttService on AndroidManifest.xml:
+```sh
+        <uses-permission android:name="android.permission.WAKE_LOCK" />
+        <uses-permission android:name="android.permission.INTERNET" />
+        <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+        <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+```
+```sh
+        <service android:name="org.eclipse.paho.android.service.MqttService" >
+        </service>
+```
 
 - Repositório Maven e Dependencias no build gradle do app / Repositories Maven and Dependencies on build gradle of the app:
-    repositories {
-    maven {
-        url "https://repo.eclipse.org/content/repositories/paho-releases/"
-    }
+```sh
+        repositories {
+         maven {
+             url "https://repo.eclipse.org/content/repositories/paho-releases/"
+                    }
+                    }
+```
+```sh
+         dependencies {
+             compile('org.eclipse.paho:org.eclipse.paho.android.service:1.0.2') {
+                    exclude module: 'support-v4'
+          }
+          }
+```
 
-    dependencies {
-        compile('org.eclipse.paho:org.eclipse.paho.android.service:1.0.2') {
-            exclude module: 'support-v4'
-    }
+### License
+### MIT
