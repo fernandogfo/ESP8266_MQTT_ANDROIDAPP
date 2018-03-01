@@ -16,7 +16,7 @@
 
 * [ESP8266 CODE](https://github.com/DrLunatic/ESP8266_MQTT_ANDROIDAPP/blob/master/ESP8266_MQTT.ino)
 
-### Código/Code Android APP:
+### Código/Code Android APP JAVA:
 
 * [Código Classe principal/Main Class Code](https://github.com/DrLunatic/ESP8266_MQTT_ANDROIDAPP/blob/master/AndroidAppMainClassCODE)
 
