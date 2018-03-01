@@ -9,13 +9,17 @@
 # Controlando ESP8266 utilizando aplicativo android via MQTT / Control ESP8266 with android app via MQTT
 
 ### NODEMCU ESP8266 Circuit
+
  * [ESP8266 CIRCUIT](https://github.com/DrLunatic/ESP8266_MQTT_ANDROIDAPP/blob/master/NODEMCU%20ESP8266%20CIRCUIT.png)
-### Código/Code ESP8266:
+ 
+### Código/Code ESP8266: "Needs to be commented in English"
 
 * [ESP8266 CODE](https://github.com/DrLunatic/ESP8266_MQTT_ANDROIDAPP/blob/master/ESP8266_MQTT.ino)
 
 ### Código/Code Android APP:
+
 * [Código Classe principal/Main Class Code](https://github.com/DrLunatic/ESP8266_MQTT_ANDROIDAPP/blob/master/AndroidAppMainClassCODE)
+
 * [Aplicativo pronto/APP](https://github.com/DrLunatic/ESP8266_MQTT_ANDROIDAPP/tree/master/MQTT_AndroidApp)
 
 ### Lembre-se/Remember:
